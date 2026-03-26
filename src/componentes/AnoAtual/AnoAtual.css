@@ -1,0 +1,7 @@
+.anoAtual {
+    background-color: rgb(192, 1, 1);
+    color: yellow;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

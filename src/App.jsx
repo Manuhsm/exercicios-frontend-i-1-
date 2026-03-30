@@ -7,6 +7,8 @@ import HoraAtual from './componentes/HoraAtual/HoraAtual';
 import MinutoAtual from './componentes/MinutoAtual/Minutoatual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
+import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
+import VerificarIdade from './componentes/VerificarIdade/VerificarIdade';
 function App() {
   return (
     <>
@@ -70,7 +72,27 @@ function App() {
       </span>
       <OlaPessoa/>
 
+      <hr />
+      <span>
+       9. Crie um componente chamado 'ListaProdutos' que aceita uma prop chamada 
+      'produtos' e deve ser uma lista de nomes de produtos. 
+      O componente deve listar os itens em tela em uma ul com o fundo roxo e a letra 
+      amarela. 
+      </span>
+      <ListaProdutos/>
 
+      <hr />
+      <span>
+        10. Crie um componente chamado 'VerificarIdade' que aceita uma prop chamada 
+        'idade' e mostra uma mensagem: 
+        "xx anos, é maior de idade" se a idade for maior ou igual a 18, em uma div
+        com o fundo verde e letra amarela; 
+        "xx anos, é menor de idade" se for menor que 18, em uma div com o fundo 
+        vermelho e letra amarela.; 
+        Chame o componente duas vezes, uma para maior de idade e outra para menor de 
+        idade.
+      </span>
+      <VerificarIdade/>
     </>
   );
 }
